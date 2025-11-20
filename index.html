@@ -19,7 +19,7 @@
 
     <!-- Background Audio (hidden) -->
     <audio id="backgroundAudio" loop>
-        <source src="Static/background-music.mp3" type="audio/mpeg">
+        <source src="Static/Christmas.mp3" type="audio/mpeg">
     </audio>
 
     <!-- Task Ticker at Top -->
@@ -47,6 +47,13 @@
         <div id="line2">Loading...</div>
         <div id="line3">left at GLIM Chennai</div>
         
+        <!-- Secret Santa Button -->
+        <button id="secretSantaBtn" onclick="window.open('https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1', '_blank')">
+            <span class="santa-icon">🎅</span>
+            <span class="button-text">Secret Santa, Coming Soon!</span>
+            <span class="santa-icon">🎁</span>
+        </button>
+        
         <!-- Progress Bar -->
         <!--div class="progress-container">
             <div class="progress-bar">
@@ -65,21 +72,21 @@
     <!-- Corner Video (Bouncing around screen) -->
     <div id="cornerVideoContainer">
         <video id="cornerVideo" autoplay loop muted playsinline>
-            <source src="Static/Roshan.mp4" type="video/mp4">
+            <source src="Static/Santa_Roshan.mp4" type="video/mp4">
         </video>
     </div>
 
-    <!-- Control Buttons Container (Bottom Left) -->
+    <!-- Control Buttons Container (Bottom Left - Moved Up) -->
     <div id="control-buttons">
         <button id="musicToggleBtn">🔇 Muted</button>
         <button id="confettiBtn">🎉 Confetti</button>
     </div>
 
-    <!-- Visitor Counter 
+    <!-- Visitor Counter (Bottom Left) -->
     <div id="visitor-counter">
-        <img src="https://hits.sh/krishnakp19.github.io/glimCountdown.svg?style=flat&label=Visitors&color=1976d2&labelColor=2c3e50" 
+        <img src="https://hits.sh/glimdev.github.io/countdownPGPM.svg?style=flat&label=Visitors&color=1976d2&labelColor=2c3e50" 
              alt="Visitor count">
-    </div> -->
+    </div>
 
     <!-- Scripts -->
     <script src="js/countdown.js"></script>
@@ -93,5 +100,3 @@
     <!--script src="js/progressBar.js"></script-->
 </body>
 </html>
-
-
